@@ -44,7 +44,7 @@ export const Form = ({ toggleForm })=>{
     }, []);
 
 
-
+// jjj
 
     const emailInTheURL = window.location.href;
     const sliceEqualSign = emailInTheURL.indexOf("=");
@@ -82,7 +82,7 @@ export const Form = ({ toggleForm })=>{
             // posted a request to the server below
             const user = {
                 email: email,
-                pswd: pwd,
+                pswd: password,
                 country: country,
                 city: city,
                 flag: flag,
