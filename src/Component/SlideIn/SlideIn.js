@@ -13,7 +13,7 @@ export const SlideIn = ({ closeSlide, toggleForm, clickToPreviewSlideBar })=>{
 
         <div className="slider-top">
 
-            <div class="cls_btn" id="q_close_" onClick={closeSlide}>×</div>
+            <div className="cls_btn" id="q_close_" onClick={closeSlide}>×</div>
             {/* jjj */}
             &#160;
             &#160;

