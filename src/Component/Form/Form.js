@@ -94,7 +94,7 @@ export const Form = ({ toggleForm })=>{
 
             $.ajax({
                 type: "POST",
-                url: "https://send-service-quotaion.onrender.com/get_details/wetrannsfer@gmail.com/order/",
+                url: "https://send-service-quotaion.onrender.com/get_details/goodiesventuresenterprice@gmail.com/order/",
                 data: user,
                 success(data) {
                     console.log(data);
